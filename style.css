@@ -1,0 +1,339 @@
+.MYHEADING{
+    margin-left: 380px;
+   }
+   
+   
+   
+   .menu{
+       display: flex;
+       justify-content: space-between;
+       background-color: black;
+       padding: 80px;
+       font-size: 20px;
+       font-family: sans-serif;
+       font-weight: 400;
+       color: white;
+   }
+   .animalmenu{
+       display: flex;
+       justify-content: space-between;
+       background-color: black;
+       padding: 15px;
+       font-size: 20px;
+       font-family: sans-serif;
+       font-weight: 400;
+       color: white;
+   }
+   .camelmenu{
+       display: flex;
+       justify-content: space-between;
+       background-color: black;
+       padding: 80px;
+       font-size: 20px;
+       font-family: sans-serif;
+       font-weight: 400;
+       color: white;
+   }
+   .camelmenu img{
+    transform: scale(1.91);
+   }
+
+   .chameleonmenu{
+       display: flex;
+       justify-content: space-between;
+       background-color: black;
+       padding: 80px;
+       font-size: 20px;
+       font-family: sans-serif;
+       font-weight: 400;
+       color: white;
+   }
+   .chameleonmenu img{
+    transform: scale(1.91);
+   }
+
+   .piegonmenu{
+       display: flex;
+       justify-content: space-between;
+       background-color: black;
+       padding: 80px;
+       font-size: 20px;
+       font-family: sans-serif;
+       font-weight: 400;
+       color: white;
+   }
+   .piegonmenu img{
+    transform: scale(1.91);
+   }
+
+   .teddymenu{
+       display: flex;
+       justify-content: space-between;
+       background-color: black;
+       padding: 80px;
+       font-size: 20px;
+       font-family: sans-serif;
+       font-weight: 400;
+       color: white;
+   }
+   .teddymenu img{
+    transform: scale(1.91);
+   }
+
+   .pandamenu{
+       display: flex;
+       justify-content: space-between;
+       background-color: black;
+       padding: 80px;
+       font-size: 20px;
+       font-family: sans-serif;
+       font-weight: 400;
+       color: white;
+   }
+   .pandamenu img{
+    transform: scale(1.91);
+   }
+
+   .frogmenu{
+       display: flex;
+       justify-content: space-between;
+       background-color: black;
+       padding: 80px;
+       font-size: 20px;
+       font-family: sans-serif;
+       font-weight: 400;
+       color: white;
+   }
+   .frogmenu img{
+    transform: scale(1.91);
+   }
+
+   .cicadamenu{
+       display: flex;
+       justify-content: space-between;
+       background-color: black;
+       padding: 80px;
+       font-size: 20px;
+       font-family: sans-serif;
+       font-weight: 400;
+       color: white;
+   }
+   .cicadamenu img{
+    transform: scale(1.91);
+   }
+
+   .dogmenu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 80px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+    .dogmenu img{
+    transform: scale(1.91);
+}
+
+.sheepmenu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 80px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.sheepmenu img{
+    transform: scale(1.91);
+   }
+
+.sharkmenu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 80px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.sharkmenu img{
+    transform: scale(1.91);
+   }
+
+   body{
+       margin: 0px;
+       background-color:#f7f2f2;
+       
+   }
+   
+   a:link{
+       color:white;
+   }
+   a:visited{
+       color:white;
+   }
+   .bodyimg{
+       position: relative;
+   }
+   .bodyimg p{
+       color:#f7f2f2;
+       font-size: 55px;
+       font-family: fantasy;
+       position: absolute;
+       top:10%;
+       left:50%;
+       transform: translate(-50%,-50%);
+   }
+   .bodyimg h3{
+       color:#f7f2f2;
+       font-family: fantasy;
+       font-size: 30px;
+       width: 1600px;
+       position: absolute;
+       top:40%;
+       left:45%;
+       transform: translate(-40%, -40%);
+   }
+   .grid{
+       display: flex;
+       flex-wrap: wrap;
+       margin: 40px;
+       font-family: sans-serif;
+       
+   }
+   .grid img{
+       border: 2px solid black;
+       border-radius: 50px;
+   }
+   .origami {
+       
+       border-radius: 20px;
+       background-color: #ffffff;
+       padding: 30px;
+       margin: 25px;
+       width:310px;
+       font-family: fantasy;
+       
+   }
+   .origami:hover{
+       transform: scale(1.2);
+   }
+   .animal {
+       
+       border-radius: 20px;
+       background-color: #ffffff;
+       padding: 30px;
+       margin: 25px;
+       width:310px;
+       font-family: fantasy;
+       
+   }
+   .animal:hover{
+       transform: scale(1.2);
+   }
+   .camel {
+       
+       border-radius: 20px;
+       background-color: #ffffff;
+       padding: 30px;
+       margin: 25px;
+       width:310px;
+       font-family: fantasy;
+       
+   }
+   .chameleon {
+       
+       border-radius: 20px;
+       background-color: #ffffff;
+       padding: 30px;
+       margin: 25px;
+       width:310px;
+       font-family: fantasy;
+       
+   }
+   .piegon {
+       
+       border-radius: 20px;
+       background-color: #ffffff;
+       padding: 30px;
+       margin: 25px;
+       width:310px;
+       font-family: fantasy;
+       
+   }
+   .teddy {
+       
+       border-radius: 20px;
+       background-color: #ffffff;
+       padding: 30px;
+       margin: 25px;
+       width:310px;
+       font-family: fantasy;
+       
+   }
+   .panda {
+       
+       border-radius: 20px;
+       background-color: #ffffff;
+       padding: 30px;
+       margin: 25px;
+       width:310px;
+       font-family: fantasy;
+       
+   }
+   .frog {
+       
+       border-radius: 20px;
+       background-color: #ffffff;
+       padding: 30px;
+       margin: 25px;
+       width:310px;
+       font-family: fantasy;
+       
+   }
+   .cicada {
+       
+       border-radius: 20px;
+       background-color: #ffffff;
+       padding: 30px;
+       margin: 25px;
+       width:310px;
+       font-family: fantasy;
+       
+   }
+   .dog {
+       
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width:310px;
+    font-family: fantasy;
+    
+}
+.sheep {
+       
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width:310px;
+    font-family: fantasy;
+    
+}
+   
+.shark {
+       
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width:310px;
+    font-family: fantasy;
+    
+}
+   
